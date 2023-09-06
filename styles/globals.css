@@ -1,0 +1,19 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Kiwi Maru", serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  background-color: #7cc494;
+  color: #333333;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  /* outline: 2px red solid; */
+}

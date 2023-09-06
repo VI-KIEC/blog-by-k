@@ -1,0 +1,129 @@
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.sideBarArea {
+  padding: 100px 40px 0 15px;
+  width: 30%;
+}
+.sideBarContainer {
+  height: 700px;
+  background-color: #649e77;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
+.sideBarContainer p {
+  text-align: left;
+  padding: 40px;
+}
+.sideBarTitleContainer {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 60px;
+}
+.upperContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  width: 100%;
+  padding: 136px;
+}
+.logoArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+}
+
+.logoContainer {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #f9f7ea;
+}
+.logoContainer img {
+  width: 100%;
+  height: auto;
+}
+
+.profileName {
+}
+.listContainer {
+  text-align: center;
+  padding: 100px 35px 100px 100px;
+  width: 70%;
+}
+
+.list {
+  list-style: none;
+}
+
+.heroContainer {
+  height: 600px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 600;
+  justify-content: center;
+  flex-direction: column;
+  color: #24382a;
+  /* background-image: url(../public/flags.jpeg); */
+}
+.heroTitle {
+}
+
+.heroSub {
+  font-size: 20px;
+}
+
+.titleContainer {
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px 10px 48px;
+  height: 200px;
+  box-shadow: 5px 6px 5px -3px rgba(0, 0, 0, 0.65);
+}
+.titleImg {
+  width: 250px;
+  height: 200px;
+  border-radius: 0px 10px 10px 0px;
+  overflow: hidden;
+}
+
+.titleImg img {
+  width: auto;
+  height: 100%;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-bottom: 5px;
+  color: #24382a;
+}
+
+.titleDate {
+  font-size: 16px;
+  color: #4c785b;
+}
+
+.titleAndDateContainer {
+  text-align: left;
+  width: 82%;
+}
