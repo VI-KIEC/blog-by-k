@@ -1,8 +1,9 @@
-import { client } from "../../libs/client";
+import { client } from "../libs/client";
 import topstyles from "../styles/top.module.css";
 import Link from "next/link";
 import Hero from "./components/Hero";
 import SideBar from "./components/SideBar";
+
 //SSG
 
 export const getStaticProps = async () => {
