@@ -8,7 +8,7 @@
 }
 .sideBarContainer {
   height: 700px;
-  background-color: #649e77;
+  background-color: #7bb18d;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -90,13 +90,17 @@
   margin-bottom: 20px;
   text-align: center;
   display: flex;
-  background-color: whitesmoke;
+  background-color: darkseagreen;
   border-radius: 10px;
   align-items: center;
   justify-content: space-between;
   padding: 10px 0px 10px 48px;
   height: 200px;
   box-shadow: 5px 6px 5px -3px rgba(0, 0, 0, 0.65);
+}
+
+.titleContainer:hover {
+  opacity: 0.7;
 }
 .titleImg {
   width: 250px;
@@ -126,4 +130,56 @@
 .titleAndDateContainer {
   text-align: left;
   width: 82%;
+}
+
+@media screen and (max-width: 768px) {
+  .heroContainer {
+    font-size: 59px;
+    height: 300px;
+  }
+
+  .mainContainer {
+    flex-direction: column;
+  }
+  .sideBarArea {
+    padding: 12px 40px 0 15px;
+  }
+  .listContainer {
+    width: 100%;
+    padding: 40px 12px 40px 12px;
+  }
+
+  .list {
+    background-color: #4c785b;
+  }
+
+  .titleContainer {
+    flex-direction: column;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+  }
+  .title {
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .titleDate {
+    font-size: 9px;
+  }
+  .titleImg {
+    display: none;
+  }
+  .sideBarArea {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .sideBarContainer {
+    height: 570px;
+  }
 }

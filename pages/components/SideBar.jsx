@@ -11,7 +11,7 @@ const SideBar = () => {
             <Image src={blogIcon} />
           </div>
         </div>
-        <div className={topstyles.profileName}>Kです</div>
+        <div className={topstyles.profileName}>キエク</div>
         <p>
           生まれ: 1999年 (日本)
           <br /> 経歴: 日本(6年) → ベトナム(14年) → 日本(3年) <br />

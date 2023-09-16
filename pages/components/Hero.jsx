@@ -4,10 +4,8 @@ const Hero = () => {
   return (
     <>
       <div className={topstyles.heroContainer}>
-        <div className={topstyles.heroTitle}>Kのブログ</div>
-        <div className={topstyles.heroSub}>
-          日本とベトナムのバイリンガルだからこそわかること
-        </div>
+        <div className={topstyles.heroTitle}>キエクのブログ</div>
+        <div className={topstyles.heroSub}>ベトナム＆日本育ちの経験談</div>
       </div>
     </>
   );

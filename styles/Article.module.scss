@@ -1,6 +1,8 @@
 .main {
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
+
+  padding: 8%;
 }
 
 .title {
@@ -25,7 +27,21 @@
     font-size: 24px;
     font-weight: bold;
     margin: 40px 0 16px;
-    border-bottom: 1px solid #174925;
+    // border-bottom: 1px solid #174925;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #4c785b;
+  }
+  & > h2::before {
+    content: "";
+    width: 5px;
+    height: 30px;
+
+    background-color: #333333;
+    margin-right: 8px;
+    top: 0;
+    bottom: 0;
   }
 
   & > p {
@@ -50,14 +66,23 @@
     content: "";
     position: absolute;
     top: 50%;
-    left: 840px;
     width: 7px;
     height: 7px;
     border-top: 2px solid #174925;
     border-right: 2px solid #174925;
     transform: rotate(45deg);
     margin-top: -5px;
+    right: 106px;
   }
 }
 // .backToTopButton div::before {
 // }
+.titleImage {
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+
+  & > img {
+    width: 100%;
+  }
+}

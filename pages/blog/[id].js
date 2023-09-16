@@ -1,4 +1,4 @@
-import styles from "../../styles/Home.module.scss";
+import styles from "../../styles/Article.module.scss";
 import { client } from "../../libs/client.js";
 import Link from "next/link";
 
@@ -23,21 +23,28 @@ export const getStaticPaths = async () => {
 };
 
 export default function BlogId({ blog }) {
+  console.log(blog);
   return (
-    <main className={styles.main}>
-      <Link className={styles.backToTopButton} href="/">
-        <span>トップに戻る</span>
-      </Link>
-
-      <h1 className={styles.title}>{blog.title}</h1>
-      <p className={styles.publishedAt}>{blog.publishedAt.substring(0, 10)}</p>
-      <div
-        className={styles.post}
-        dangerouslySetInnerHTML={{ __html: `${blog.body}` }}
-      ></div>
-      <Link className={styles.backToTopButton} href="/">
-        <span>トップに戻る</span>
-      </Link>
-    </main>
+    <>
+      <div className={styles.titleImage}>
+        <img src={blog.titleImage.url}></img>
+      </div>
+      <main className={styles.main}>
+        <Link className={styles.backToTopButton} href="/">
+          <span>トップに戻る</span>
+        </Link>
+        <h1 className={styles.title}>{blog.title}</h1>
+        <p className={styles.publishedAt}>
+          {blog.publishedAt.substring(0, 10)}
+        </p>
+        <div
+          className={styles.post}
+          dangerouslySetInnerHTML={{ __html: `${blog.body}` }}
+        ></div>
+        <Link className={styles.backToTopButton} href="/">
+          <span>トップに戻る</span>
+        </Link>
+      </main>
+    </>
   );
 }
