@@ -16,5 +16,5 @@ a {
 
 * {
   box-sizing: border-box;
-  outline: 2px red solid;
+  /* outline: 2px red solid; */
 }
