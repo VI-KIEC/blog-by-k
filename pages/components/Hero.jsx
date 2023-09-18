@@ -5,7 +5,7 @@ const Hero = () => {
     <>
       <div className={topstyles.heroContainer}>
         <div className={topstyles.heroTitle}>キエクのブログ</div>
-        <div className={topstyles.heroSub}>ベトナム＆日本育ちの経験談</div>
+        <div className={topstyles.heroSub}>ベトナム＆日本育ちの体験談</div>
       </div>
     </>
   );
