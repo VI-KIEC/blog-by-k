@@ -84,5 +84,12 @@
 
   & > img {
     width: 100%;
+    transform: translate(0px, 0px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .titleImage {
+    height: 30vh;
   }
 }
