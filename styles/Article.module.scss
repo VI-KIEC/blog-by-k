@@ -32,16 +32,17 @@
     display: flex;
     align-items: center;
     background-color: #4c785b;
+    padding-left: 12px;
   }
   & > h2::before {
     content: "";
-    width: 5px;
-    height: 30px;
-
+    width: 5.5px;
+    height: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
     background-color: #333333;
     margin-right: 8px;
-    top: 0;
-    bottom: 0;
   }
 
   & > p {
