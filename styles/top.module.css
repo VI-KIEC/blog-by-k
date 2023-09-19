@@ -181,5 +181,11 @@
 
   .sideBarContainer {
     height: 570px;
+    font-size: 14px;
+  }
+
+  .logoContainer {
+    width: 178px;
+    height: 178px;
   }
 }
